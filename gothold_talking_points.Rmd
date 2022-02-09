@@ -1,0 +1,116 @@
+---
+header-includes:
+- \input{preamble.tex}
+fontsize: 11pt
+output: pdf_document
+sansfont: Roboto
+font:     Roboto
+geometry: "left=1in,right=1in,top=0.35in,bottom=0.6in"
+urlcolor: #169d62
+---
+
+\raggedright
+
+```{r rmarkdown-setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(dev = "cairo_pdf")
+options(knitr.kable.NA = "")
+options(kableExtra.latex.load_packages = FALSE)
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(sdcoethemes)
+
+set_sdcoe_defaults(style = "print")
+```
+
+\sdcoeheadingone{College Enrollment}
+
+```{=tex}
+\vspace{3mm}
+\sdcoefigurenumber{1}
+\sdcoefiguretitle{Enrollment Figures Show a Steep Decline in College-Going}
+\sdcoefiguresubtitle{San Diego students opting out of college continues to climb}
+\vspace{1mm}
+```
+```{r tp-enroll}
+source("../nsc_21/scripts/019a enroll_cohort.R", chdir = T)
+```
+
+```{=tex}
+\sdcoesource{National Student Clearinghouse StudentTracker Report.}
+\sdcoenote{We calculated enrollment numbers for each graduating cohort using data provided by the National Student Clearinghouse. The Clearinghouse data file supplies informatin on whether a student enrolled in college or not with a 93 percent matching rate.}
+```
+**Talking Point:** San Diego's total undergraduate enrollment has declined over 3200 students in the past 2 years. The loss to these students' futures is significant and will greatly impact our community in years to come. We need to re-engage these and all students in the value of a college education.
+
+```{=tex}
+\newpage{}
+\newgeometry{left=1in,right=1in,top=1in,bottom=1.5in}
+```
+\sdcoeheadingone{Upward Mobility}
+
+```{=tex}
+\vspace{3mm}
+\sdcoetablenumber{1}
+\sdcoetabletitle{Top 10 Colleges Doing the Most for Low-Income Students by rank}
+\sdcoetablesubtitle{California universities lead the nation in creating upward mobility}
+```
+
+```{r tp-mobility, echo=FALSE,  fig.width =7 , fig.height =2}
+# arbitrary data to demonstrate a table
+data <- tribble(~"College Name", ~"Freshman Class", ~"Pell grad share", ~"Net price, middle-income",
+  "University of California-Irvine", 5449, 40, "$13k",
+  "University of California-Davis", 5063, 31, "$14k",
+  "University of California-Santa Barbara", 4597, 31, "$14k",
+  "University of California-San Diego", 5218, 28, "$13k",
+  "University of California-Los Angeles", 5684, 28, "$13k",
+  "University of Florida", 6348, 24, "$9k",
+  "University of California-Berkeley", 4677, 23, "$13k",
+  "Vassar", 662, 22, "$12k",
+  "Amherst", 466, 20, "$11k",
+  "Pomona", 396, 18, "$9k",
+  )
+
+kable(data, format = "latex", booktabs = TRUE,
+      col.names = c(" ", "Freshman Class", "Pell grad share", "Net price"),
+      align = c("l", "r", "r", "l"),
+      linesep = "") %>%
+  kable_styling(full_width = TRUE) %>%
+  pack_rows("College Name", 1, 10) %>%
+  column_spec(1, width = "7cm") %>%
+  column_spec(2, width = "4.75cm") %>%
+  row_spec(0, bold = TRUE,
+           extra_css = "border-top: 0; border-bottom:5px solid red;") %>%
+  add_header_above(c(" " , " " , " " , " " ))
+```
+
+\sdcoesource{To measure top colleges' efforts on economic diversity, \href{https://www.nytimes.com/interactive/2015/09/17/upshot/top-colleges-doing-the-most-for-low-income-students.html}{The Upshot} created the College Access Index. It's based on the share of students who receive Pell grants, which typically go to families making less than 70k; the graduation rate of those students; and the price that colleges charge both low-and middle-income students.}
+
+**Talking Point:** California's university system supports more low-income students than any other state's university system in the nation. With recent expansions to financial aid programs, a four-year college is more accessible to San Diego students than ever before.
+
+```{=tex}
+\newpage{}
+\newgeometry{left=1in,right=1in,top=1in,bottom=1.5in}
+```
+\sdcoeheadingone{College Completion by Cohort}
+
+```{=tex}
+\sdcoefigurenumber{2}
+\sdcoefiguretitle{Only 1 in 4 San Diego Students Earn a College Degree}
+\sdcoefiguresubtitle{The percentange of students completing degrees in four and six years remains low}
+```
+```{r tp-completion}
+source("../nsc_21/scripts/012a completion_rates.R", chdir = T)
+```
+
+```{=tex}
+\sdcoesource{National Student Clearinghouse StudentTracker Report.}
+\sdcoenote{Colleges report graduation rates many different ways. We calculated graduation rates by cohort or year of high school graduation. The 2015 cohort represents the 6-year graduation cohort and the data point reflects the percentage of students from that cohort who earned a degree.}
+```
+
+**Talking Point:** Currently about 1 in 4 students enrolled in college completes a degree. To improve social mobility, supporting students to access college isn't enough. We need to get students to finish.
+
+
