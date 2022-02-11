@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.6)  6 FEB 2022 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.9)  9 FEB 2022 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -118,7 +118,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
@@ -757,11 +757,10 @@ LaTeX Info: Redefining \_ on input line 43.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 48.
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box86
-)
-No file gothold_talking_points_2.aux.
+) (./gothold_talking_points_2.aux)
 \openout1 = `gothold_talking_points_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
@@ -807,6 +806,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
 LaTeX Info: Redefining \nameref on input line 75.
+(./gothold_talking_points_2.out) (./gothold_talking_points_2.out)
 \@outlinefile=\write4
 \openout4 = `gothold_talking_points_2.out'.
 
@@ -1001,18 +1001,212 @@ l.124 \newpage
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.163 \end{tabu}
-                 
-Here is how much of TeX's memory you used:
- 25836 strings out of 480238
- 485373 string characters out of 5894026
- 748715 words of memory out of 5000000
- 43262 multiletter control sequences out of 15000+600000
- 543712 words of font info for 68 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 89i,8n,83p,980b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-!  ==> Fatal error occurred, no output PDF file produced!
+Overfull \hbox (30.34813pt too wide) in paragraph at lines 163--163
+ \T1/Roboto-LF/bold/n/10.95 middle-income|
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.166 \newpage
+              {} [3
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=614.295pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<gothold_talking_points_2_files/figure-latex/enroll-by-cohort-1.pdf, id=35, 469.755pt x 325.215pt>
+File: gothold_talking_points_2_files/figure-latex/enroll-by-cohort-1.pdf Graphic file (type pdf)
+<use gothold_talking_points_2_files/figure-latex/enroll-by-cohort-1.pdf>
+Package pdftex.def Info: gothold_talking_points_2_files/figure-latex/enroll-by-cohort-1.pdf  used on input line 181.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.185 \newpage
+              {} [4
+
+ <./gothold_talking_points_2_files/figure-latex/enroll-by-cohort-1.pdf>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=614.295pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<gothold_talking_points_2_files/figure-latex/completion-by-cohort-1.pdf, id=59, 469.755pt x 325.215pt>
+File: gothold_talking_points_2_files/figure-latex/completion-by-cohort-1.pdf Graphic file (type pdf)
+<use gothold_talking_points_2_files/figure-latex/completion-by-cohort-1.pdf>
+Package pdftex.def Info: gothold_talking_points_2_files/figure-latex/completion-by-cohort-1.pdf  used on input line 205.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.209 \newpage
+              {} [5
+
+ <./gothold_talking_points_2_files/figure-latex/completion-by-cohort-1.pdf>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=614.295pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \newpage
+              {} [6
+
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=614.295pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 290.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 290.
+LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input line 290.
+(c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
+File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
+(Font)              `TS1/Roboto-LF/regular/n' on input line 290.
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 290.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.292 \end{document}
+                     [7
+
+] (./gothold_talking_points_2.aux)
+Package rerunfilecheck Info: File `gothold_talking_points_2.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 26012 strings out of 480238
+ 489739 string characters out of 5894026
+ 750104 words of memory out of 5000000
+ 43420 multiletter control sequences out of 15000+600000
+ 550005 words of font info for 73 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 89i,13n,83p,980b,723s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_shbyjm.enc}{c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}<c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on gothold_talking_points_2.pdf (7 pages, 574097 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+
