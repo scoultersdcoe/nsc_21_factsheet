@@ -20,6 +20,7 @@
 \usepackage{lettrine}
 \usepackage{tcolorbox}
 \renewcommand{\LettrineFontHook}{\color{sdcoeblue}}
+\usepackage{pagecolor}% http://ctan.org/pkg/{pagecolor,lipsum}
 %\usepackage{tabularx}           % for library(kableExtra)
 
 % set font encoding for PDFLaTeX or XeLaTeX
@@ -32,6 +33,7 @@
 \usepackage{amssymb}          % for itemized list styles
 
 % document setup
+\definecolor{sdcoegrey}{HTML}{f5f5f5}
 \definecolor{sdcoeblue}{HTML}{005488}  % defines SDCOE's blue color (navy)
 \definecolor{sdcoelightblue}{HTML}{00AEFF} % defines SDCOE's light blue color
 \usepackage{enumitem}                   % bullet alignment
@@ -183,7 +185,7 @@
     \draw 
       node[align=left, anchor=south west, minimum height=0.5in, minimum width=8.5in, text width=6.5in] at ($(current page.south west) + (0in,0.38in)$) 
       {
-      \small{This report was developed by #1. The views expressed are those of the author/authors and should not be attributed to SDCOE, its trustees, or its funders. Further information on SDCOE's mission is available at \href{https://www.sdcoe.net/superintendent/Pages/mission.aspx}{sdcoe.net/mission.}
+      \small{This report was developed by #1. Further information on SDCOE's mission is available at \href{https://www.sdcoe.net/superintendent/Pages/mission.aspx}{sdcoe.net/mission.}
       
       Copyright © #2 #3. San Diego County Office of Education. Permission is granted for reproduction of this report, with attribution to SDCOE.}
       };

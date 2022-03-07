@@ -33,18 +33,18 @@ set_sdcoe_defaults(style = "print")
 \vspace{3mm}
 \sdcoefigurenumber{1}
 \sdcoefiguretitle{Enrollment Figures Show a Steep Decline in College-Going}
-\sdcoefiguresubtitle{San Diego students opting out of college continues to climb}
+\sdcoefiguresubtitle{The number of San Diego students opting out of college continues to climb}
 \vspace{1mm}
 ```
 ```{r tp-enroll}
-source("../nsc_21/scripts/019a enroll_cohort.R", chdir = T)
+source("../nsc_21/scripts/019a enroll_cohortv2.R", chdir = T)
 ```
 
 ```{=tex}
 \sdcoesource{National Student Clearinghouse StudentTracker Report.}
 \sdcoenote{We calculated enrollment numbers for each graduating cohort using data provided by the National Student Clearinghouse. The Clearinghouse data file supplies informatin on whether a student enrolled in college or not with a 93 percent matching rate.}
 ```
-**Talking Point:** San Diego's total undergraduate enrollment has declined over 3200 students in the past 2 years. The loss to these students' futures is significant and will greatly impact our community in years to come. We need to re-engage these and all students in the value of a college education.
+**Talking Point:** San Diego's total undergraduate enrollment has declined over 3,200 students in the past 2 years. The loss to these students' futures is significant and will greatly impact our community in years to come. We need to re-engage these and all students in the value of a college education.
 
 ```{=tex}
 \newpage{}
@@ -111,6 +111,6 @@ source("../nsc_21/scripts/012a completion_rates.R", chdir = T)
 \sdcoenote{Colleges report graduation rates many different ways. We calculated graduation rates by cohort or year of high school graduation. The 2015 cohort represents the 6-year graduation cohort and the data point reflects the percentage of students from that cohort who earned a degree.}
 ```
 
-**Talking Point:** Currently about 1 in 4 students enrolled in college completes a degree. To improve social mobility, supporting students to access college isn't enough. We need to get students to finish.
+**Talking Point:** Currently about 1 in 4 students enrolled in college completes a degree. To improve upward mobility, supporting students to access college isn't enough. We need to get students to finish.
 
 

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.9)  11 FEB 2022 07:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.22)  22 FEB 2022 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **nsc_21_factsheet.tex
 (./nsc_21_factsheet.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-05> (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2022-02-21> (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
@@ -743,16 +743,16 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count338
 \enitdp@description=\count339
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/footmisc/footmisc.sty
-Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+Package: footmisc 2022/02/14 v6.0b a miscellany of footnote facilities
 \FN@temptoken=\toks53
 \footnotemargin=\dimen334
-\c@pp@next@reset=\count340
-Package footmisc Info: Declaring symbol style bringhurst on input line 855.
-Package footmisc Info: Declaring symbol style chicago on input line 863.
-Package footmisc Info: Declaring symbol style wiley on input line 872.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+\@outputbox@depth=\dimen335
+Package footmisc Info: Declaring symbol style bringhurst on input line 686.
+Package footmisc Info: Declaring symbol style chicago on input line 694.
+Package footmisc Info: Declaring symbol style wiley on input line 703.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 714.
+Package footmisc Info: Declaring symbol style lamport* on input line 734.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 755.
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 
@@ -781,7 +781,7 @@ LaTeX Info: Redefining \_ on input line 43.
 Package hyperref Info: Option `colorlinks' set `true' on input line 49.
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count341
+\l__color_backend_stack_int=\count340
 \l__pdf_internal_box=\box94
 ) (./nsc_21_factsheet.aux)
 \openout1 = `nsc_21_factsheet.aux'.
@@ -824,7 +824,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count342
+\c@section@level=\count341
 )
 LaTeX Info: Redefining \ref on input line 75.
 LaTeX Info: Redefining \pageref on input line 75.
@@ -867,8 +867,8 @@ LaTeX Info: Redefining \nameref on input line 75.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count343
-\c@mv@boldtabular=\count344
+\c@mv@tabular=\count342
+\c@mv@boldtabular=\count343
 Package ragged2e Info: ABD: executing \RaggedRight on input line 75.
 <design/SDCOE_logo_secondary.png, id=7, 693.3102pt x 174.8934pt>
 File: design/SDCOE_logo_secondary.png Graphic file (type png)
@@ -1264,15 +1264,15 @@ Package rerunfilecheck Info: File `nsc_21_factsheet.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27826 strings out of 480238
- 537074 string characters out of 5894026
- 792601 words of memory out of 5000000
- 45216 multiletter control sequences out of 15000+600000
+ 27846 strings out of 480238
+ 537508 string characters out of 5894025
+ 792654 words of memory out of 5000000
+ 45236 multiletter control sequences out of 15000+600000
  554004 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  88i,13n,83p,521b,725s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_shbyjm.enc}{c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}<c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Users/scoulter/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam5.pfb>
-Output written on nsc_21_factsheet.pdf (8 pages, 595477 bytes).
+Output written on nsc_21_factsheet.pdf (8 pages, 596152 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams

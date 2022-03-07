@@ -1,0 +1,63 @@
+---
+header-includes:
+- \input{preamble.tex}
+fontsize: 11pt
+output: pdf_document
+sansfont: Roboto
+font:     Roboto
+geometry: "left=1in,right=1in,top=0.35in,bottom=0.6in"
+urlcolor: #169d62
+---
+
+\raggedright
+
+```{r rmarkdown-setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(dev = "cairo_pdf")
+options(knitr.kable.NA = "")
+options(kableExtra.latex.load_packages = FALSE)
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(sdcoethemes)
+
+set_sdcoe_defaults(style = "print")
+```
+
+
+\pagecolor{sdcoegrey}
+
+\begin{titlepage}
+
+\sdcoelogo{}
+
+\vspace{60mm}
+\sdcoetitle{Declines in College Enrollment Continue Unabated in 2021}
+\vspace{5mm}
+\sdcoeauthors{Shannon Coulter, Director of Research and Evaluation}
+
+
+\begin{tikzpicture}[overlay]
+\draw [fill=white,draw=white] (-4,-3.2) rectangle (20.2,0.3);
+\draw [ultra thick, gray](-3,5) -- (19.53,5);
+\draw [thick, gray](-3,0.3) -- (19.53,0.3);
+\draw [thick, gray](-3,-1) -- (19.53,-1);
+\draw [ultra thick, gray](-3,-1.5) -- (19.53,-1.5);
+\draw [fill=gray,draw=gray] (-4,-2) rectangle (20.2,-3);
+\end{tikzpicture}
+
+\begin{tikzpicture}[overlay]
+\end{tikzpicture}
+
+\begin{tikzpicture}[overlay, remember picture]
+\node[anchor=south west, %anchor is bottom left corner of the graphic
+      xshift=0cm, %shifting around
+      yshift=0cm] 
+     at (current page.south west) %left bottom corner of the page
+     {\includegraphics[width=21.3cm]{design/students.jpg}}; 
+\end{tikzpicture}
+
+\end{titlepage}

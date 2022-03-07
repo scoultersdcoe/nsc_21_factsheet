@@ -111,14 +111,14 @@ kable(data, format = "latex", booktabs = TRUE,
 
 \sdcoeheadingtwo{College Enrollment by Cohort}
 
-The overall number of students enrolled in college was down in 2021 compared to enrollment patterns prior to the pandemic. As indicated in the chart below, the number of students opting out of college (light blue) increases over time, while the number enrolled (darker blue) decreases over the same time period. Basically, a substantial number of students are opting out of college today compared to the past seven years.
+The overall number of students enrolled in college was down in 2021 compared to enrollment patterns prior to the pandemic. As indicated in the chart below, the number of students opting out of college (dark blue) increases over time, while the number enrolled (light blue) decreases over the same time period. Basically, a substantial number of students are opting out of college today compared to the past seven years.
 
 \sdcoefigurenumber{2}
 \sdcoefiguretitle{Early Enrollment Figures Show Another Steep Decline in College-Going}
 \vspace{3mm}
 
 ```{r enroll-by-cohort}
-source("../nsc_21/scripts/019a enroll_cohort.R", chdir = T)
+source("../nsc_21/scripts/019a enroll_cohortv2.R", chdir = T)
 ```
 \sdcoesource{National Student Clearinghouse StudentTracker Report}
 \sdcoenote{We calculated enrollment number for each graduating cohort using data provided by the National Student Clearinghouse. The Clearinghouse data file supplies information on whether a student enrolled in college or not with a 93 percent matching rate.}
@@ -146,10 +146,10 @@ source("../nsc_21/scripts/021a persistence.R", chdir = T)
 
 \sdcoeheadingone{Completion}
 
-While the pandemic has made no discernible difference on college completion rates yet, historically only a  small number of students actually earn college degrees. About 17% of the Class of 2017 has earned a college degree, while 23% of the Class of 2015 earned a degree. To improve economic mobility, supporting students to access college isn't enough. We need to get students to finish. Furthermore, we might have significantly fewer students earning degrees in the future based on our current enrollment levels.
+While the pandemic has made no discernible difference on college completion rates yet, historically only a  small number of students actually earn college degrees. About 19% of the Class of 2017 has earned a college degree, while 28% of the Class of 2015 earned a degree. To improve economic mobility, supporting students to access college isn't enough. We need to get students to finish. Furthermore, we might have significantly fewer students earning degrees in the future based on our current enrollment levels.
 
 \sdcoefigurenumber{4}
-\sdcoefiguretitle{Only 1 in 4 San Diego Students Earn a College Degree}
+\sdcoefiguretitle{More than 1 in 4 San Diego Students Earn a College Degree in 6 Years}
 \sdcoefiguresubtitle{The percentange of students completing degrees in four and six years remains low}
 ```{r completion-by-cohort}
 source("../nsc_21/scripts/012a completion_rates.R", chdir = T)
